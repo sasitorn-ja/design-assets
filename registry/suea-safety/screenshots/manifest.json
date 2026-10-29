@@ -1,0 +1,89 @@
+{
+  "capturedAt": "2026-10-29T02:50:52.523Z",
+  "pages": [
+    {
+      "id": "home",
+      "label": "Home",
+      "url": "https://safety.cipcloud.net/",
+      "desktop": "home-desktop.png",
+      "mobile": "home-mobile.png"
+    },
+    {
+      "id": "safety-effort",
+      "label": "Safety Effort",
+      "url": "https://safety.cipcloud.net/category",
+      "desktop": "safety-effort-desktop.png",
+      "mobile": "safety-effort-mobile.png"
+    },
+    {
+      "id": "safety-culture",
+      "label": "Safety Culture",
+      "url": "https://safety.cipcloud.net/safety-culture",
+      "desktop": "safety-culture-desktop.png",
+      "mobile": "safety-culture-mobile.png"
+    },
+    {
+      "id": "leaderboard",
+      "label": "Leaderboard",
+      "url": "https://safety.cipcloud.net/safety-culture/leaderboard",
+      "desktop": "leaderboard-desktop.png",
+      "mobile": null
+    },
+    {
+      "id": "plant-manager",
+      "label": "Plant Manager",
+      "url": "https://safety.cipcloud.net/manager",
+      "desktop": "plant-manager-desktop.png",
+      "mobile": null
+    },
+    {
+      "id": "dashboard",
+      "label": "Dashboard & Report",
+      "url": "https://safety.cipcloud.net/dashboard",
+      "desktop": "dashboard-desktop.png",
+      "mobile": null
+    },
+    {
+      "id": "safety-admin",
+      "label": "Admin",
+      "url": "https://safety.cipcloud.net/safety-admin",
+      "desktop": "safety-admin-desktop.png",
+      "mobile": null
+    },
+    {
+      "id": "super-admin",
+      "label": "SuperAdmin",
+      "url": "https://safety.cipcloud.net/super-admin",
+      "desktop": "super-admin-desktop.png",
+      "mobile": null
+    },
+    {
+      "id": "notifications",
+      "label": "Notice",
+      "url": "https://safety.cipcloud.net/notifications",
+      "desktop": "notifications-desktop.png",
+      "mobile": null
+    },
+    {
+      "id": "profile",
+      "label": "Profile",
+      "url": "https://safety.cipcloud.net/profile",
+      "desktop": "profile-desktop.png",
+      "mobile": null
+    },
+    {
+      "id": "menu-dashboard-open",
+      "label": "เมนู Dashboard & Report (เปิด dropdown)",
+      "url": "https://safety.cipcloud.net/",
+      "desktop": "menu-dashboard-open-desktop.png",
+      "mobile": null
+    },
+    {
+      "id": "menu-admin-open",
+      "label": "เมนู Admin (เปิด dropdown)",
+      "url": "https://safety.cipcloud.net/",
+      "desktop": "menu-admin-open-desktop.png",
+      "mobile": null
+    }
+  ]
+}

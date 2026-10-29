@@ -1,0 +1,40 @@
+{
+  "capturedAt": "2026-10-29T02:38:08.985Z",
+  "pages": [
+    {
+      "id": "dashboard",
+      "label": "Dashboard",
+      "url": "https://salespark.cipcloud.net/cpac-dealer/scg",
+      "desktop": "dashboard-desktop.png",
+      "mobile": "dashboard-mobile.png"
+    },
+    {
+      "id": "rank",
+      "label": "อันดับ",
+      "url": "https://salespark.cipcloud.net/cpac-dealer/scg/rank",
+      "desktop": "rank-desktop.png",
+      "mobile": "rank-mobile.png"
+    },
+    {
+      "id": "plants",
+      "label": "แผนที่",
+      "url": "https://salespark.cipcloud.net/cpac-dealer/scg/plants",
+      "desktop": "plants-desktop.png",
+      "mobile": null
+    },
+    {
+      "id": "docs",
+      "label": "โบรชัวร์",
+      "url": "https://salespark.cipcloud.net/cpac-dealer/scg/docs",
+      "desktop": "docs-desktop.png",
+      "mobile": "docs-mobile.png"
+    },
+    {
+      "id": "contact",
+      "label": "ติดต่อพนักงาน",
+      "url": "https://salespark.cipcloud.net/cpac-dealer/scg/contact",
+      "desktop": "contact-desktop.png",
+      "mobile": null
+    }
+  ]
+}

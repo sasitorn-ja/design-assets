@@ -1,0 +1,54 @@
+{
+  "capturedAt": "2026-10-29T02:38:45.781Z",
+  "pages": [
+    {
+      "id": "home",
+      "label": "หน้าหลัก",
+      "url": "https://plant.cipcloud.net/cwp/home",
+      "desktop": "home-desktop.png",
+      "mobile": "home-mobile.png"
+    },
+    {
+      "id": "requests-new",
+      "label": "สร้างคำขอ",
+      "url": "https://plant.cipcloud.net/cwp/requests/new",
+      "desktop": "requests-new-desktop.png",
+      "mobile": "requests-new-mobile.png"
+    },
+    {
+      "id": "data",
+      "label": "รายการคำขอ",
+      "url": "https://plant.cipcloud.net/cwp/data",
+      "desktop": "data-desktop.png",
+      "mobile": "data-mobile.png"
+    },
+    {
+      "id": "dashboard",
+      "label": "Dashboard",
+      "url": "https://plant.cipcloud.net/cwp/dashboard",
+      "desktop": "dashboard-desktop.png",
+      "mobile": null
+    },
+    {
+      "id": "admin",
+      "label": "จัดการสิทธิ์",
+      "url": "https://plant.cipcloud.net/cwp/admin",
+      "desktop": "admin-desktop.png",
+      "mobile": null
+    },
+    {
+      "id": "admin-roles",
+      "label": "จัดการตารางสิทธิ์",
+      "url": "https://plant.cipcloud.net/cwp/admin/roles",
+      "desktop": "admin-roles-desktop.png",
+      "mobile": null
+    },
+    {
+      "id": "admin-activity",
+      "label": "Activity Log",
+      "url": "https://plant.cipcloud.net/cwp/admin/activity",
+      "desktop": "admin-activity-desktop.png",
+      "mobile": null
+    }
+  ]
+}

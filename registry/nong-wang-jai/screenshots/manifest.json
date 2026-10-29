@@ -1,0 +1,47 @@
+{
+  "capturedAt": "2026-10-29T02:32:22.043Z",
+  "pages": [
+    {
+      "id": "dashboard",
+      "label": "Dashboard",
+      "url": "https://rmc.cipcloud.net/nong-wang-jai/dashboard",
+      "desktop": "dashboard-desktop.png",
+      "mobile": "dashboard-mobile.png"
+    },
+    {
+      "id": "dealer-network",
+      "label": "Dealer Network",
+      "url": "https://rmc.cipcloud.net/nong-wang-jai/dealer-network",
+      "desktop": "dealer-network-desktop.png",
+      "mobile": "dealer-network-mobile.png"
+    },
+    {
+      "id": "dealer-analysis",
+      "label": "Dealer Analysis",
+      "url": "https://rmc.cipcloud.net/nong-wang-jai/dealer-analysis",
+      "desktop": "dealer-analysis-desktop.png",
+      "mobile": null
+    },
+    {
+      "id": "top-dealers",
+      "label": "Top N Dealers",
+      "url": "https://rmc.cipcloud.net/nong-wang-jai/top-dealers",
+      "desktop": "top-dealers-desktop.png",
+      "mobile": null
+    },
+    {
+      "id": "top-products",
+      "label": "Top N Products",
+      "url": "https://rmc.cipcloud.net/nong-wang-jai/top-products",
+      "desktop": "top-products-desktop.png",
+      "mobile": null
+    },
+    {
+      "id": "orders",
+      "label": "Orders",
+      "url": "https://rmc.cipcloud.net/nong-wang-jai/orders",
+      "desktop": "orders-desktop.png",
+      "mobile": "orders-mobile.png"
+    }
+  ]
+}

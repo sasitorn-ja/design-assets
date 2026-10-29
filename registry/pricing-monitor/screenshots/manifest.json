@@ -1,0 +1,26 @@
+{
+  "capturedAt": "2026-10-29T02:52:25.054Z",
+  "pages": [
+    {
+      "id": "dashboard-cpac",
+      "label": "Dashboard (CPAC)",
+      "url": "https://salespark.cipcloud.net/s-and-op-pricing-monitor/",
+      "desktop": "dashboard-cpac-desktop.png",
+      "mobile": "dashboard-cpac-mobile.png"
+    },
+    {
+      "id": "dashboard-qmix",
+      "label": "Dashboard (QMIX)",
+      "url": "https://salespark.cipcloud.net/s-and-op-pricing-monitor/",
+      "desktop": "dashboard-qmix-desktop.png",
+      "mobile": null
+    },
+    {
+      "id": "admin",
+      "label": "Admin",
+      "url": "https://salespark.cipcloud.net/s-and-op-pricing-monitor/",
+      "desktop": "admin-desktop.png",
+      "mobile": null
+    }
+  ]
+}

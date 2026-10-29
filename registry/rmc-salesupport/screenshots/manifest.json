@@ -1,0 +1,75 @@
+{
+  "capturedAt": "2026-10-29T02:48:37.180Z",
+  "pages": [
+    {
+      "id": "home",
+      "label": "หน้าหลัก",
+      "url": "https://salespark.cipcloud.net/s-and-op/",
+      "desktop": "home-desktop.png",
+      "mobile": "home-mobile.png"
+    },
+    {
+      "id": "inhand-m-l-mega",
+      "label": "Inhand M/L/MEGA",
+      "url": "https://salespark.cipcloud.net/s-and-op/inhand/m-l-mega",
+      "desktop": "inhand-m-l-mega-desktop.png",
+      "mobile": "inhand-m-l-mega-mobile.png"
+    },
+    {
+      "id": "inhand-tiny-small",
+      "label": "Inhand Tiny/Small",
+      "url": "https://salespark.cipcloud.net/s-and-op/inhand/tiny-small",
+      "desktop": "inhand-tiny-small-desktop.png",
+      "mobile": null
+    },
+    {
+      "id": "dashboard-inhand",
+      "label": "Dashboard Inhand",
+      "url": "https://salespark.cipcloud.net/s-and-op/dashboard/inhand",
+      "desktop": "dashboard-inhand-desktop.png",
+      "mobile": null
+    },
+    {
+      "id": "dashboard-demand-supply",
+      "label": "Demand & Supply",
+      "url": "https://salespark.cipcloud.net/s-and-op/dashboard/demand-supply",
+      "desktop": "dashboard-demand-supply-desktop.png",
+      "mobile": null
+    },
+    {
+      "id": "follow-up-table",
+      "label": "FollowUp ตาราง",
+      "url": "https://salespark.cipcloud.net/s-and-op/follow-up/table",
+      "desktop": "follow-up-table-desktop.png",
+      "mobile": "follow-up-table-mobile.png"
+    },
+    {
+      "id": "dashboard-follow-up",
+      "label": "FollowUp Dashboard",
+      "url": "https://salespark.cipcloud.net/s-and-op/dashboard/follow-up",
+      "desktop": "dashboard-follow-up-desktop.png",
+      "mobile": null
+    },
+    {
+      "id": "admin-user-permissions",
+      "label": "Admin: ผู้ใช้งานและสิทธิ์",
+      "url": "https://salespark.cipcloud.net/s-and-op/admin/user-permissions",
+      "desktop": "admin-user-permissions-desktop.png",
+      "mobile": null
+    },
+    {
+      "id": "menu-admin-open",
+      "label": "เมนู Admin (เปิด dropdown)",
+      "url": "https://salespark.cipcloud.net/s-and-op/",
+      "desktop": "menu-admin-open-desktop.png",
+      "mobile": null
+    },
+    {
+      "id": "menu-inhand-open",
+      "label": "เมนู Inhand (เปิด dropdown)",
+      "url": "https://salespark.cipcloud.net/s-and-op/",
+      "desktop": "menu-inhand-open-desktop.png",
+      "mobile": null
+    }
+  ]
+}

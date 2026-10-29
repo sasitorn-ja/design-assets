@@ -1,0 +1,47 @@
+{
+  "capturedAt": "2026-10-29T02:36:11.619Z",
+  "pages": [
+    {
+      "id": "po-import",
+      "label": "นำเข้า PO",
+      "url": "https://store.cipcloud.net/syncdrop/po/import",
+      "desktop": "po-import-desktop.png",
+      "mobile": null
+    },
+    {
+      "id": "po",
+      "label": "PO รอจัดส่ง",
+      "url": "https://store.cipcloud.net/syncdrop/po",
+      "desktop": "po-desktop.png",
+      "mobile": "po-mobile.png"
+    },
+    {
+      "id": "jobs-new",
+      "label": "สร้างงาน",
+      "url": "https://store.cipcloud.net/syncdrop/jobs/new",
+      "desktop": "jobs-new-desktop.png",
+      "mobile": null
+    },
+    {
+      "id": "driver",
+      "label": "ห้องคนขับ",
+      "url": "https://store.cipcloud.net/syncdrop/driver",
+      "desktop": "driver-desktop.png",
+      "mobile": "driver-mobile.png"
+    },
+    {
+      "id": "jobs",
+      "label": "รายการงาน",
+      "url": "https://store.cipcloud.net/syncdrop/jobs",
+      "desktop": "jobs-desktop.png",
+      "mobile": "jobs-mobile.png"
+    },
+    {
+      "id": "reports",
+      "label": "ประวัติงาน",
+      "url": "https://store.cipcloud.net/syncdrop/reports",
+      "desktop": "reports-desktop.png",
+      "mobile": null
+    }
+  ]
+}
