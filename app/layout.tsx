@@ -25,7 +25,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
   return (
     <html lang="th" className={`${plexThai.variable} ${sarabun.variable} ${inter.variable}`}>
-      <body>
+      {/* Browser extensions can add body attributes before React hydrates. */}
+      <body suppressHydrationWarning>
         <header className="sticky top-0 z-40 border-b bg-white/90 backdrop-blur">
           <div className="mx-auto flex h-14 max-w-[1400px] items-center gap-3 px-4">
             <MobileNav projects={nav} />
