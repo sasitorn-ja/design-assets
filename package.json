@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start -p 4000",
     "browser": "node scripts/browser.mjs",
-    "capture": "node scripts/capture.mjs"
+    "capture": "node scripts/capture.mjs",
+    "export:guides": "node scripts/export-design-guides.mjs"
   },
   "keywords": [],
   "author": "",
