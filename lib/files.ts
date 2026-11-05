@@ -20,7 +20,7 @@ export async function getScreenshots(slug: string): Promise<{ capturedAt: string
   try {
     const raw = await readFile(path.join(root, "registry", slug, "screenshots", "manifest.json"), "utf8");
     const data = JSON.parse(raw);
-    return { capturedAt: data.capturedAt, pages: data.pages.filter((p: ScreenshotEntry) => p.desktop) };
+    return { capturedAt: data.capturedAt, pages: data.pages.filter((p: ScreenshotEntry) => p.desktop || p.mobile) };
   } catch {
     return { capturedAt: null, pages: [] };
   }

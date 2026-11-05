@@ -71,6 +71,8 @@ export const capturePlan = [
   },
   {
     slug: "cpac-dealer",
+    // ดีไซน์เดิม: เว็บเปลี่ยนไปแล้ว เก็บภาพเดิมไว้ ไม่ถ่ายใหม่
+    frozen: true,
     base: "https://salespark.cipcloud.net/cpac-dealer/scg",
     pages: [
       { id: "dashboard", label: "Dashboard", path: "", mobile: true },
@@ -78,6 +80,22 @@ export const capturePlan = [
       { id: "plants", label: "แผนที่", path: "/plants" },
       { id: "docs", label: "โบรชัวร์", path: "/docs", mobile: true },
       { id: "contact", label: "ติดต่อพนักงาน", path: "/contact" },
+    ],
+  },
+  {
+    // ดีไซน์ใหม่ (พ.ย. 2569) ใช้ URL เดียวกับ cpac-dealer (ดีไซน์เดิมตั้ง frozen ไว้ จึงไม่ถูกถ่ายทับ)
+    slug: "cpac-dealer-v2",
+    base: "https://salespark.cipcloud.net/cpac-dealer/scg",
+    pages: [
+      { id: "dashboard", label: "Dashboard", path: "", mobile: true },
+      { id: "rank", label: "อันดับ", path: "/rank", mobile: true },
+      { id: "plants", label: "แผนที่", path: "/plants" },
+      { id: "docs", label: "โบรชัวร์", path: "/docs", mobile: true },
+      { id: "contact", label: "ติดต่อพนักงาน", path: "/contact" },
+      { id: "login", label: "เข้าสู่ระบบ", path: "/login", mobile: true, loggedOut: true },
+      { id: "menu-settings", label: "เมนู ตั้งค่า (dropdown)", path: "", click: "ตั้งค่า" },
+      { id: "menu-super-admin", label: "เมนู Super Admin (dropdown)", path: "", click: "Super Admin" },
+      { id: "menu-mobile", label: "เมนูมือถือ (sheet)", path: "", mobileOnly: true, clickSelector: 'button[aria-label="เปิดเมนู"]' },
     ],
   },
   {

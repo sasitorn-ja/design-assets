@@ -21,9 +21,10 @@ export default async function Navigation({ params }: { params: Promise<{ slug: s
   const project = getProject((await params).slug);
   if (!project) notFound();
   const { pages } = await getScreenshots(project.slug);
-  const menuShots = pages.filter((p) => p.id.startsWith("menu-"));
-  const first = pages.find((p) => !p.id.startsWith("menu-"));
-  const mobile = pages.find((p) => p.mobile);
+  const menuShots = pages.filter((p) => p.id.startsWith("menu-") && p.desktop);
+  const mobileMenuShots = pages.filter((p) => p.id.startsWith("menu-") && !p.desktop && p.mobile);
+  const first = pages.find((p) => !p.id.startsWith("menu-") && p.desktop);
+  const mobile = pages.find((p) => p.mobile && !p.id.startsWith("menu-"));
   const demoId = project.menu.demoComponentId;
 
   return (
@@ -51,7 +52,12 @@ export default async function Navigation({ params }: { params: Promise<{ slug: s
               <Screenshot key={m.id} src={shotUrl(project.slug, m.desktop!)} alt={m.label} caption={m.label} />
             ))}
           </div>
-          {mobile?.mobile && <Screenshot src={shotUrl(project.slug, mobile.mobile)} alt={mobile.label} caption={`มือถือ — ${mobile.label}`} mobile />}
+          <div className="space-y-4">
+            {mobile?.mobile && <Screenshot src={shotUrl(project.slug, mobile.mobile)} alt={mobile.label} caption={`มือถือ — ${mobile.label}`} mobile />}
+            {mobileMenuShots.map((m) => (
+              <Screenshot key={m.id} src={shotUrl(project.slug, m.mobile!)} alt={m.label} caption={m.label} mobile />
+            ))}
+          </div>
         </div>
       </Section>
 

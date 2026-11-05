@@ -5,10 +5,11 @@ import { project as rmcSalesupport } from "@/registry/rmc-salesupport/project";
 import { project as stock } from "@/registry/stock/project";
 import { project as sueaSafety } from "@/registry/suea-safety/project";
 import { project as cpacDealer } from "@/registry/cpac-dealer/project";
+import { project as cpacDealerV2 } from "@/registry/cpac-dealer-v2/project";
 import { project as washoutPit } from "@/registry/washout-pit/project";
 
 // ลำดับในเมนูซ้าย = ลำดับที่นี่
-export const projects: Project[] = [nongWangJai, pricingMonitor, rmcSalesupport, stock, sueaSafety, cpacDealer, washoutPit];
+export const projects: Project[] = [nongWangJai, pricingMonitor, rmcSalesupport, stock, sueaSafety, cpacDealerV2, cpacDealer, washoutPit];
 
 export function getProject(slug: string) {
   return projects.find((p) => p.slug === slug);

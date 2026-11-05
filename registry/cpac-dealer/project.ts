@@ -3,12 +3,12 @@ import type { Project } from "@/lib/types";
 export const project: Project = {
   slug: "cpac-dealer",
   name: "SaleSpark_cpac-dealer",
-  title: "SaleSpark CPAC Dealer",
+  title: "SaleSpark CPAC Dealer (ดีไซน์เดิม)",
   url: "https://salespark.cipcloud.net/cpac-dealer/scg",
   repo: "SaleSpark_cpac-dealer",
   stack: ["Next.js 15", "React 19", "Tailwind CSS 3", "shadcn (radix-ui)", "ECharts", "Leaflet + markercluster", "lucide-react"],
   summary:
-    "ศูนย์จัดการร้านค้า Dealer ดูยอดขาย อันดับ แคมเปญ โบรชัวร์ และแผนที่โรงงาน สีฟ้า CPAC #00A1E5 บนพื้นเทาฟ้า ตัวเลขใหญ่ชัด เมนูด้านบนเป็นปุ่มแคปซูล เมนูเปลี่ยนตามบทบาท (Dealer / Viewer / Admin / Super Admin) มีชุด shadcn components ครบที่สุดในทีม",
+    "ดีไซน์เดิม (ภาพหน้าจอเก็บไว้เมื่อ 29 ต.ค. 2569) เว็บจริงตอนนี้เปลี่ยนเป็นดีไซน์ใหม่แล้ว ดูที่ CPAC CPM Dealer (ใหม่) — ศูนย์จัดการร้านค้า Dealer ดูยอดขาย อันดับ แคมเปญ โบรชัวร์ และแผนที่โรงงาน สีฟ้า CPAC #00A1E5 บนพื้นเทาฟ้า ตัวเลขใหญ่ชัด เมนูด้านบนเป็นปุ่มแคปซูล เมนูเปลี่ยนตามบทบาท (Dealer / Viewer / Admin / Super Admin) มีชุด shadcn components ครบที่สุดในทีม",
   tone: [
     "ฟ้า CPAC สด + กรมท่าเข้ม #092943",
     "การ์ดขาวมุม 16px เงาเบามาก",
@@ -69,7 +69,7 @@ export const project: Project = {
         ],
       },
     ],
-    notes: ["เมนูต่างกันตาม role ใช้ไฟล์ Navigation.tsx เดียวกัน", "เว็บนี้แสดงลายน้ำ 'FOR TEST ONLY' เพราะ URL ที่ให้มาเป็น environment ทดสอบ"],
+    notes: ["เว็บจริงเปลี่ยนเป็นดีไซน์ใหม่แล้ว (พ.ย. 2569) หน้านี้เก็บดีไซน์เดิมไว้ ห้ามรัน npm run capture cpac-dealer เพราะภาพเดิมจะถูกทับ", "เมนูต่างกันตาม role ใช้ไฟล์ Navigation.tsx เดียวกัน", "เว็บนี้แสดงลายน้ำ 'FOR TEST ONLY' เพราะ URL ที่ให้มาเป็น environment ทดสอบ"],
   },
   colors: [
     {

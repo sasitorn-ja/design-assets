@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { IBM_Plex_Sans_Thai, Sarabun, Inter } from "next/font/google";
+import { IBM_Plex_Sans_Thai, Sarabun, Inter, Prompt } from "next/font/google";
 import { Palette } from "lucide-react";
 import { SiteSidebar, MobileNav } from "@/components/docs/site-sidebar";
 import { projects } from "@/lib/projects";
@@ -9,6 +9,7 @@ import "./globals.css";
 const plexThai = IBM_Plex_Sans_Thai({ subsets: ["thai", "latin"], weight: ["400", "500", "600", "700"], variable: "--font-plex-thai" });
 const sarabun = Sarabun({ subsets: ["thai", "latin"], weight: ["300", "400", "500", "600", "700", "800"], variable: "--font-sarabun" });
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
+const prompt = Prompt({ subsets: ["thai", "latin"], weight: ["400", "500", "600", "700"], variable: "--font-prompt" });
 
 export const metadata: Metadata = {
   title: { default: "Design Assets", template: "%s · Design Assets" },
@@ -24,7 +25,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   }));
 
   return (
-    <html lang="th" className={`${plexThai.variable} ${sarabun.variable} ${inter.variable}`}>
+    <html lang="th" className={`${plexThai.variable} ${sarabun.variable} ${inter.variable} ${prompt.variable}`}>
       {/* Browser extensions can add body attributes before React hydrates. */}
       <body suppressHydrationWarning>
         <header className="sticky top-0 z-40 border-b bg-white/90 backdrop-blur">

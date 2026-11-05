@@ -46,8 +46,8 @@ export default async function Screens({ params }: { params: Promise<{ slug: stri
                 <h2 className="text-lg font-semibold">{p.label}</h2>
                 <a href={p.url} target="_blank" rel="noreferrer" className="truncate font-mono text-xs text-zinc-400 hover:text-zinc-700">{p.url.replace(/^https?:\/\//, "")}</a>
               </div>
-              <div className={p.mobile ? "grid gap-4 md:grid-cols-[1fr_200px]" : ""}>
-                <Screenshot src={shotUrl(project.slug, p.desktop!)} alt={`${p.label} desktop`} />
+              <div className={!p.desktop ? "max-w-[220px]" : p.mobile ? "grid gap-4 md:grid-cols-[1fr_200px]" : ""}>
+                {p.desktop && <Screenshot src={shotUrl(project.slug, p.desktop)} alt={`${p.label} desktop`} />}
                 {p.mobile && <Screenshot src={shotUrl(project.slug, p.mobile)} alt={`${p.label} mobile`} mobile />}
               </div>
             </section>

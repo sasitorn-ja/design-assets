@@ -1,0 +1,68 @@
+{
+  "capturedAt": "2026-11-05T02:35:37.477Z",
+  "pages": [
+    {
+      "id": "dashboard",
+      "label": "Dashboard",
+      "url": "https://salespark.cipcloud.net/cpac-dealer/scg",
+      "desktop": "dashboard-desktop.png",
+      "mobile": "dashboard-mobile.png"
+    },
+    {
+      "id": "rank",
+      "label": "อันดับ",
+      "url": "https://salespark.cipcloud.net/cpac-dealer/scg/rank",
+      "desktop": "rank-desktop.png",
+      "mobile": "rank-mobile.png"
+    },
+    {
+      "id": "plants",
+      "label": "แผนที่",
+      "url": "https://salespark.cipcloud.net/cpac-dealer/scg/plants",
+      "desktop": "plants-desktop.png",
+      "mobile": null
+    },
+    {
+      "id": "docs",
+      "label": "โบรชัวร์",
+      "url": "https://salespark.cipcloud.net/cpac-dealer/scg/docs",
+      "desktop": "docs-desktop.png",
+      "mobile": "docs-mobile.png"
+    },
+    {
+      "id": "contact",
+      "label": "ติดต่อพนักงาน",
+      "url": "https://salespark.cipcloud.net/cpac-dealer/scg/contact",
+      "desktop": "contact-desktop.png",
+      "mobile": null
+    },
+    {
+      "id": "login",
+      "label": "เข้าสู่ระบบ",
+      "url": "https://salespark.cipcloud.net/cpac-dealer/scg/login",
+      "desktop": "login-desktop.png",
+      "mobile": "login-mobile.png"
+    },
+    {
+      "id": "menu-settings",
+      "label": "เมนู ตั้งค่า (dropdown)",
+      "url": "https://salespark.cipcloud.net/cpac-dealer/scg",
+      "desktop": "menu-settings-desktop.png",
+      "mobile": null
+    },
+    {
+      "id": "menu-super-admin",
+      "label": "เมนู Super Admin (dropdown)",
+      "url": "https://salespark.cipcloud.net/cpac-dealer/scg",
+      "desktop": "menu-super-admin-desktop.png",
+      "mobile": null
+    },
+    {
+      "id": "menu-mobile",
+      "label": "เมนูมือถือ (sheet)",
+      "url": "https://salespark.cipcloud.net/cpac-dealer/scg",
+      "desktop": null,
+      "mobile": "menu-mobile-mobile.png"
+    }
+  ]
+}

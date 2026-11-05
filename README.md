@@ -41,7 +41,8 @@ npx shadcn@latest add http://localhost:4000/r/rmc-salesupport-theme.json
 | rmc-salesupport | Project_Rmc-salesupport | https://salespark.cipcloud.net/s-and-op |
 | stock | Project_Stock (SyncDrop) | https://store.cipcloud.net/syncdrop/ |
 | suea-safety | Project_SUEASafety | https://safety.cipcloud.net/ |
-| cpac-dealer | SaleSpark_cpac-dealer | https://salespark.cipcloud.net/cpac-dealer/scg |
+| cpac-dealer-v2 | CPAC CPM Dealer (ดีไซน์ใหม่ พ.ย. 2569) | https://salespark.cipcloud.net/cpac-dealer/scg |
+| cpac-dealer | SaleSpark CPAC Dealer (ดีไซน์เดิม เก็บไว้อ้างอิง ไม่ถ่ายภาพใหม่) | https://salespark.cipcloud.net/cpac-dealer/scg |
 | washout-pit | Washout_Pit | https://plant.cipcloud.net/cwp/login |
 
 ## โครงสร้าง
@@ -67,7 +68,7 @@ npm run capture          # เก็บภาพทุกโปรเจค
 npm run capture stock    # หรือเฉพาะโปรเจคเดียว
 ```
 
-รายการหน้าที่เก็บอยู่ใน `scripts/capture-pages.mjs` · session login อยู่ใน `.auth/` (อยู่ใน .gitignore ห้าม commit)
+รายการหน้าที่เก็บอยู่ใน `scripts/capture-pages.mjs` (โปรเจคที่ตั้ง `frozen: true` จะไม่ถ่ายใหม่ เพื่อเก็บภาพดีไซน์เดิม) · ภาพจะซ่อนลายน้ำ FOR TEST ONLY อัตโนมัติ · session login อยู่ใน `.auth/` (อยู่ใน .gitignore ห้าม commit)
 
 > ภาพหน้าจอมีข้อมูลจริงของบริษัท ใช้ภายในทีมเท่านั้น
 
