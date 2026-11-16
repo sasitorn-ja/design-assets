@@ -6,6 +6,7 @@ import { useEffect, useState } from "react";
 import { ChevronRight, Menu, X } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { projectSections } from "@/lib/projects";
+import { featureGuides } from "@/lib/feature-guides";
 
 type NavProject = { slug: string; title: string; color: string; components: { id: string; name: string }[] };
 
@@ -37,6 +38,11 @@ function SidebarLinks({ projects, onNavigate }: { projects: NavProject[]; onNavi
         {link("/", "หน้าแรก")}
         {link("/guide", "วิธีนำไปใช้ในโปรเจค")}
         {link("/compare", "เปรียบเทียบ 7 โปรเจค")}
+      </div>
+      <div>
+        <p className="mb-1 px-2 text-xs font-semibold text-zinc-900">คู่มือฟีเจอร์</p>
+        {link("/features", "ทั้งหมด")}
+        {featureGuides.map((g) => link(`/features/${g.slug}`, g.title, 1))}
       </div>
       <div>
         <p className="mb-1 px-2 text-xs font-semibold text-zinc-900">โปรเจค</p>

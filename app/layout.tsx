@@ -40,6 +40,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <nav className="ml-6 hidden items-center gap-5 text-sm text-zinc-600 md:flex">
               <Link href="/guide" className="hover:text-zinc-900">วิธีนำไปใช้</Link>
               <Link href="/compare" className="hover:text-zinc-900">เปรียบเทียบโปรเจค</Link>
+              <Link href="/features" className="hover:text-zinc-900">คู่มือฟีเจอร์</Link>
             </nav>
           </div>
         </header>
